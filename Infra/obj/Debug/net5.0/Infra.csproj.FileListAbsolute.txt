@@ -1,0 +1,15 @@
+C:\Users\thiag\workspace\Arquitetura\Domain\Infra\bin\Debug\net5.0\Infra.deps.json
+C:\Users\thiag\workspace\Arquitetura\Domain\Infra\bin\Debug\net5.0\Infra.dll
+C:\Users\thiag\workspace\Arquitetura\Domain\Infra\bin\Debug\net5.0\ref\Infra.dll
+C:\Users\thiag\workspace\Arquitetura\Domain\Infra\bin\Debug\net5.0\Infra.pdb
+C:\Users\thiag\workspace\Arquitetura\Domain\Infra\bin\Debug\net5.0\Domain.dll
+C:\Users\thiag\workspace\Arquitetura\Domain\Infra\bin\Debug\net5.0\Domain.pdb
+C:\Users\thiag\workspace\Arquitetura\Domain\Infra\obj\Debug\net5.0\Infra.csproj.AssemblyReference.cache
+C:\Users\thiag\workspace\Arquitetura\Domain\Infra\obj\Debug\net5.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thiag\workspace\Arquitetura\Domain\Infra\obj\Debug\net5.0\Infra.AssemblyInfoInputs.cache
+C:\Users\thiag\workspace\Arquitetura\Domain\Infra\obj\Debug\net5.0\Infra.AssemblyInfo.cs
+C:\Users\thiag\workspace\Arquitetura\Domain\Infra\obj\Debug\net5.0\Infra.csproj.CoreCompileInputs.cache
+C:\Users\thiag\workspace\Arquitetura\Domain\Infra\obj\Debug\net5.0\Infra.csproj.CopyComplete
+C:\Users\thiag\workspace\Arquitetura\Domain\Infra\obj\Debug\net5.0\Infra.dll
+C:\Users\thiag\workspace\Arquitetura\Domain\Infra\obj\Debug\net5.0\ref\Infra.dll
+C:\Users\thiag\workspace\Arquitetura\Domain\Infra\obj\Debug\net5.0\Infra.pdb
