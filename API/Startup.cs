@@ -1,10 +1,14 @@
-using Application.UseCases.Products;
-using Domain.Repositories;
-using Infra.Repositories;
+using Application.CasosDeUso;
+using Application.CasosDeUso.Produtos;
+using Application.CasosDeUso.Usuarios;
+using Domain.Repositorios;
+using Infra.Contexto;
+using Infra.Repositorios;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -31,12 +35,18 @@ namespace API
         {
 
             services.AddControllers();
-            services.AddScoped<IProductRepository, ProductRepository>();
-            services.AddScoped<IProductRegister, ProductRegister>();
+            services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
+            services.AddScoped<ICadastrarProduto, CadastrarProduto>();
+            services.AddScoped<IDeletarProduto, DeletarProduto >();
+            services.AddScoped<IListarProdutos, ListarProdutos>();
+            services.AddScoped<ICadastrarUsuario, CadastrarUsuario>();
+            services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
             });
+            services.AddDbContext<LojaContext>(context=>context.UseSqlite(Configuration.GetConnectionString("Default")));
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

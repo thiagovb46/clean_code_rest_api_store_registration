@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xn6i+CQd+TeV8EZdQxB92m57r8D/6PQksNuIuhkXDoDv7WjuRNgVqjgM9o5F7c2hT7v+kpDjxDlYX07viKWjPg==",
+  "dgSpecHash": "2AXcA+xW5n9kUWmzdhlb41LBZZthoo/q8R2YB3J/JQCp7UxEUJ4ypPYr3pHeWS2XQMSsuDZOzFaCGXjdJ0UzKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thiag\\workspace\\Arquitetura\\Domain\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

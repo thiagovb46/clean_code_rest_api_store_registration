@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thiag\\workspace\\Arquitetura\\Domain\\Infra\\Infra.csproj": {}
+    "C:\\Users\\thiag\\workspace\\Api-Produtos\\Infra\\Infra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thiag\\workspace\\Arquitetura\\Domain\\Domain\\Domain.csproj": {
+    "C:\\Users\\thiag\\workspace\\Api-Produtos\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\workspace\\Arquitetura\\Domain\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\thiag\\workspace\\Arquitetura\\Domain\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\workspace\\Arquitetura\\Domain\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\thiag\\workspace\\Arquitetura\\Domain\\Infra\\Infra.csproj": {
+    "C:\\Users\\thiag\\workspace\\Api-Produtos\\Infra\\Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\workspace\\Arquitetura\\Domain\\Infra\\Infra.csproj",
+        "projectUniqueName": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Infra\\Infra.csproj",
         "projectName": "Infra",
-        "projectPath": "C:\\Users\\thiag\\workspace\\Arquitetura\\Domain\\Infra\\Infra.csproj",
+        "projectPath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Infra\\Infra.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\workspace\\Arquitetura\\Domain\\Infra\\obj\\",
+        "outputPath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -90,8 +90,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\thiag\\workspace\\Arquitetura\\Domain\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\thiag\\workspace\\Arquitetura\\Domain\\Domain\\Domain.csproj"
+              "C:\\Users\\thiag\\workspace\\Api-Produtos\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Domain\\Domain.csproj"
               }
             }
           }
@@ -105,6 +105,22 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
