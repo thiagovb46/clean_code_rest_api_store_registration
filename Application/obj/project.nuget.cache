@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BUS8d07L/AZIK5FkHQd1Po4V8QujWNW2cm/XGLxGPZsq/YGuPfk7yLzbVVVnVtthTBqNSoT5nqWXTS7rD/ZqQQ==",
+  "dgSpecHash": "2cD2uOBtRkincpd6wiPHHF++fJQ84zDdE2M0ghlGdVrTaU9dEqqSq9AlXUjf71Uve+eKYdChSBZ8ApPhqFrghw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Application\\Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

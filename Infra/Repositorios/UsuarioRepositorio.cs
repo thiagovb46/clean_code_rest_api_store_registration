@@ -27,12 +27,13 @@ namespace Infra.Repositorios
 
         public void Deletar(int id)
         {
-            throw new NotImplementedException();
-        }
+            _contexto.Remove(_contexto.Usuarios.FirstOrDefault(u => u.Id==id));
+            _contexto.SaveChanges();
+;        }
 
         public List<Usuario> ListarTodos()
         {
-            throw new NotImplementedException();
+            return _contexto.Usuarios.ToList();
         }
     }
 }

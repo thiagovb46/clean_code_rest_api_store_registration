@@ -9,5 +9,6 @@ namespace Application.ViewModels
     public class UsuarioViewModelOutput
     {
         public string Nome{ get; set; }
+        public int CodigoUsuario{ get; set; }
     }
 }

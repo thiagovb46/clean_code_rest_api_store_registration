@@ -15,9 +15,14 @@ namespace API.Controllers
     {
         private readonly ICadastrarUsuario usuarioCad;
 
-        public UsuarioController(ICadastrarUsuario usuario)
+        public readonly IDeletarUsuario _usuarioDelete;
+        private readonly IListarUsuarios _usuarioListar;
+
+        public UsuarioController(ICadastrarUsuario usuario,IDeletarUsuario usuarioDelete,IListarUsuarios usuarioListar)
         {
             usuarioCad = usuario;
+            _usuarioDelete = usuarioDelete;
+            _usuarioListar = usuarioListar;
         }
 
         [HttpPost]
@@ -27,6 +32,31 @@ namespace API.Controllers
             {
                 usuarioCad.Cadastrar(novousuario);
                 return Created("Sucesso", novousuario);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.ToString());
+            }
+        }
+        [HttpDelete]
+        public ActionResult Delete(int id)
+        {
+            try
+            {
+                _usuarioDelete.Deletar(id);
+                return Ok("Usuário apagado");
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.ToString());
+            }
+        }
+        [HttpGet]
+        public ActionResult Listar()
+        {
+            try
+            {
+                return Ok(_usuarioListar.ListarTodos());
             }
             catch (Exception e)
             {

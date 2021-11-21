@@ -39,8 +39,10 @@ namespace API
             services.AddScoped<ICadastrarProduto, CadastrarProduto>();
             services.AddScoped<IDeletarProduto, DeletarProduto >();
             services.AddScoped<IListarProdutos, ListarProdutos>();
-            services.AddScoped<ICadastrarUsuario, CadastrarUsuario>();
             services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
+            services.AddScoped<ICadastrarUsuario, CadastrarUsuario>();
+            services.AddScoped<IDeletarUsuario, DeletarUsuario>();
+            services.AddScoped<IListarUsuarios, ListarUsuarios>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });

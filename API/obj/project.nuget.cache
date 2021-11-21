@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KhTX76MvPVtL/c0JgxsDTTtGRVuXRnhZFR22J9H3sdv7xgbQptGu0qM/3DSqcz7n5ANztUYeZUcDiCq4wVcrXQ==",
+  "dgSpecHash": "71+u0TTgIz17+ghup9nDw2JCTUKrlCd9T1ZsmJFSG7vMwX8db424m4yD/BmqG+9fIx6ofBfaAwqfj1ha9nO9Hg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thiag\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\thiag\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thiag\\workspace\\Api-Produtos\\API\\API.csproj": {}
+    "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thiag\\workspace\\Api-Produtos\\API\\API.csproj": {
+    "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\workspace\\Api-Produtos\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\API\\API.csproj",
+        "projectPath": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\API\\API.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\API\\obj\\",
+        "outputPath": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,14 +32,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\thiag\\workspace\\Api-Produtos\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Application\\Application.csproj"
+              "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Application\\Application.csproj"
               },
-              "C:\\Users\\thiag\\workspace\\Api-Produtos\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Domain\\Domain.csproj"
+              "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\thiag\\workspace\\Api-Produtos\\Infra\\Infra.csproj": {
-                "projectPath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Infra\\Infra.csproj"
+              "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Infra\\Infra.csproj": {
+                "projectPath": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Infra\\Infra.csproj"
               }
             }
           }
@@ -95,14 +95,14 @@
         }
       }
     },
-    "C:\\Users\\thiag\\workspace\\Api-Produtos\\Application\\Application.csproj": {
+    "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Application\\obj\\",
+        "outputPath": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -123,8 +123,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\thiag\\workspace\\Api-Produtos\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Domain\\Domain.csproj"
+              "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Domain\\Domain.csproj"
               }
             }
           }
@@ -157,14 +157,14 @@
         }
       }
     },
-    "C:\\Users\\thiag\\workspace\\Api-Produtos\\Domain\\Domain.csproj": {
+    "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -215,14 +215,14 @@
         }
       }
     },
-    "C:\\Users\\thiag\\workspace\\Api-Produtos\\Infra\\Infra.csproj": {
+    "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Infra\\Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Infra\\Infra.csproj",
+        "projectUniqueName": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Infra\\Infra.csproj",
         "projectName": "Infra",
-        "projectPath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Infra\\Infra.csproj",
+        "projectPath": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Infra\\Infra.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Infra\\obj\\",
+        "outputPath": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -243,8 +243,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\thiag\\workspace\\Api-Produtos\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\thiag\\workspace\\Api-Produtos\\Domain\\Domain.csproj"
+              "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Domain\\Domain.csproj"
               }
             }
           }
