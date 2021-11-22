@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Beiyuan.WebSystem.AspNetCore.Authentication.JwtBearer" Version="3.1.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.14.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 

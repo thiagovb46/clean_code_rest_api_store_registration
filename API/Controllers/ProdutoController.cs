@@ -1,5 +1,6 @@
 ﻿using Application.CasosDeUso.Produtos;
 using Application.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -37,7 +38,7 @@ namespace API.Controllers
 
             }
         }
-
+        [Authorize]
         [HttpDelete("{id}")]
         public IActionResult Delete(int id) 
         {

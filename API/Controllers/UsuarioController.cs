@@ -17,12 +17,14 @@ namespace API.Controllers
 
         public readonly IDeletarUsuario _usuarioDelete;
         private readonly IListarUsuarios _usuarioListar;
+        private readonly ILoginUsuario _usuarioLogin;
 
-        public UsuarioController(ICadastrarUsuario usuario,IDeletarUsuario usuarioDelete,IListarUsuarios usuarioListar)
+        public UsuarioController(ICadastrarUsuario usuario, IDeletarUsuario usuarioDelete, IListarUsuarios usuarioListar, ILoginUsuario usuarioLogin)
         {
             usuarioCad = usuario;
             _usuarioDelete = usuarioDelete;
             _usuarioListar = usuarioListar;
+            _usuarioLogin = usuarioLogin;
         }
 
         [HttpPost]
@@ -32,6 +34,22 @@ namespace API.Controllers
             {
                 usuarioCad.Cadastrar(novousuario);
                 return Created("Sucesso", novousuario);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.ToString());
+            }
+        }
+        
+        [HttpPost]
+        [Route("/login")]
+        public ActionResult Login(UsuarioViewModelLogin novousuario)
+        {
+            try
+            {
+                if(_usuarioLogin.validaLogin(novousuario)== "Login incorreto")
+                return Unauthorized();
+                return Ok(_usuarioLogin.validaLogin(novousuario));
             }
             catch (Exception e)
             {

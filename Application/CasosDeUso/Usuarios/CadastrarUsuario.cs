@@ -1,4 +1,5 @@
-﻿using Application.ViewModels;
+﻿using Application.Servicos;
+using Application.ViewModels;
 using Domain.Models;
 using Domain.Repositorios;
 using System;
@@ -11,10 +12,12 @@ namespace Application.CasosDeUso.Usuarios
 {
     public class CadastrarUsuario : ICadastrarUsuario
     {
+        private readonly ICriptografia _criptografia;
         private readonly IUsuarioRepositorio _UsuarioRep;
 
-        public CadastrarUsuario(IUsuarioRepositorio UsuarioRep)
+        public CadastrarUsuario(IUsuarioRepositorio UsuarioRep,ICriptografia criptografia)
         {
+            _criptografia = criptografia;
             _UsuarioRep = UsuarioRep;
 
         }

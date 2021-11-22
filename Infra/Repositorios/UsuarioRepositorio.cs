@@ -35,5 +35,11 @@ namespace Infra.Repositorios
         {
             return _contexto.Usuarios.ToList();
         }
+        public bool Login(Usuario usuario)
+        {
+            if (_contexto.Usuarios.First(user => (user.Email == usuario.Email && usuario.senha == user.senha)) == null)
+                return false;
+            return true;
+        }
     }
 }
