@@ -1,5 +1,4 @@
-# API_Rest_Loja_Users
-
+# API-REST-PRODUTOS-USUÁRIOS
 # - API REST CRUD(Create Read Update Delete) para uma lista de produtos e usuários de uma loja. ( Em implementação) 
 ## Rodando no endereço(Local): https://localhost:5001
 ## Documentação disponível em(Local) : https://localhost:5001/swagger/index.html
