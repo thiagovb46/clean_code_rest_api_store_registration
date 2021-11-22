@@ -9,11 +9,11 @@
 
 # - Rotas Implementadas até então (As demais  ainda estão em implementação) : 
 #Produto
-# - Cadastrar Produtos POST https://localhost:5001/Produto
-# - Listar todos os produtos : GET https://localhost:5001/Produto
-# - Deletar Produtos : DELETE POST https://localhost:5001/Produto/{id} (Rota autenticada - Necessário fazer login com usuário e enviar o token fornecido por meio do header Authorization)
+## Cadastrar Produtos POST https://localhost:5001/Produto
+##  Listar todos os produtos : GET https://localhost:5001/Produto
+## Deletar Produtos : DELETE POST https://localhost:5001/Produto/{id} (Rota autenticada - Necessário fazer login com usuário e enviar o token fornecido por meio do header Authorization)
 
-# - Usuario
-# - Cadastrar usuários POST https://localhost:5001/Usuario
-# - Listar Todos os usuários GET https://localhost:5001/Usuario
-#- Deletar Usuario : DELETE https://localhost:5001/Usuario/{id}
+## Usuario
+## Cadastrar usuários POST https://localhost:5001/Usuario
+## Listar Todos os usuários GET https://localhost:5001/Usuario
+## Deletar Usuario : DELETE https://localhost:5001/Usuario/{id}
