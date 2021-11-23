@@ -48,7 +48,7 @@ namespace API.Controllers
             try
             {
                 if(_usuarioLogin.validaLogin(novousuario)== "Login incorreto")
-                return Unauthorized();
+                return NotFound();
                 return Ok(_usuarioLogin.validaLogin(novousuario));
             }
             catch (Exception e)

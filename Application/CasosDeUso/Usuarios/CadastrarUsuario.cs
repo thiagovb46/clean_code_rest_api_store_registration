@@ -23,7 +23,7 @@ namespace Application.CasosDeUso.Usuarios
         }
         public void Cadastrar(UsuarioViewModelInput novousuarioViewModel)
         {
-            Usuario novoUsuario = new Usuario(novousuarioViewModel.Nome,novousuarioViewModel.Email,novousuarioViewModel.Senha);
+            Usuario novoUsuario = new Usuario(novousuarioViewModel.Nome,novousuarioViewModel.Email,_criptografia.Hash(novousuarioViewModel.Senha));
             _UsuarioRep.Cadastrar(novoUsuario);
         }
     }

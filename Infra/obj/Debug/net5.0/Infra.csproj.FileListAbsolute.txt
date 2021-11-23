@@ -48,3 +48,4 @@ C:\Users\thiag\OneDrive\Área de Trabalho\API-Cadastro-Produtos\Infra\obj\Debug\
 C:\Users\thiag\OneDrive\Área de Trabalho\API-Cadastro-Produtos\Infra\obj\Debug\net5.0\ref\Infra.dll
 C:\Users\thiag\OneDrive\Área de Trabalho\API-Cadastro-Produtos\Infra\obj\Debug\net5.0\Infra.pdb
 C:\Users\thiag\OneDrive\Área de Trabalho\API-Cadastro-Produtos\Infra\obj\Debug\net5.0\Infra.genruntimeconfig.cache
+C:\Users\thiag\OneDrive\Área de Trabalho\API-Cadastro-Produtos\Infra\obj\Debug\net5.0\Infra.csproj.CopyComplete

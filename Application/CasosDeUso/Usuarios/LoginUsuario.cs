@@ -29,7 +29,7 @@ namespace Application.CasosDeUso.Usuarios
                 (new Usuario()
                 {
                     Email = usuarioviewmodellogin.Email,
-                    senha =usuarioviewmodellogin.Senha
+                    senha =_cripto.Hash(usuarioviewmodellogin.Senha)
                 }
                 )
                 )
