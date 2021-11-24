@@ -15,6 +15,7 @@ namespace Application.ViewModels
         [Required]
         [Range(0, 3000000000)]
         public float Preco { get; set; }
+        public bool produtoEstaAtivo { get; set; }
 
     }
 }

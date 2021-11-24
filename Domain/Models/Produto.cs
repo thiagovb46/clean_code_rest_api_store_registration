@@ -14,11 +14,11 @@ namespace Domain.Models
         public string Nome{ get; private set; }
         public float Preco { get; private set;}
         public bool EstaAtivo { get; set;}
-        public Produto(string nome, float preco)
+        public Produto(string nome, float preco, bool status)
         {
             this.Nome = nome;
             this.Preco = preco;
-            this.EstaAtivo = true;
+            this.EstaAtivo = status;
         }
     }
 }

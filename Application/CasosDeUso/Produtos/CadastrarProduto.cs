@@ -19,7 +19,7 @@ namespace Application.CasosDeUso.Produtos
         }
         public void Cadastrar(ProdutoViewModelInput produto) 
         {
-            var novoproduto = new Produto(produto.Nome, produto.Preco);
+            var novoproduto = new Produto(produto.Nome, produto.Preco,produto.produtoEstaAtivo);
             _produtoRepositorio.Cadastrar(novoproduto);
         }
     }

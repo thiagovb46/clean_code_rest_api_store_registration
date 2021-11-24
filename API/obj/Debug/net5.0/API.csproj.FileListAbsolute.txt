@@ -176,3 +176,4 @@ C:\Users\thiag\OneDrive\Área de Trabalho\API-Cadastro-Produtos\API\bin\Debug\ne
 C:\Users\thiag\OneDrive\Área de Trabalho\API-Cadastro-Produtos\API\bin\Debug\net5.0\Nito.Disposables.dll
 C:\Users\thiag\OneDrive\Área de Trabalho\API-Cadastro-Produtos\API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\thiag\OneDrive\Área de Trabalho\API-Cadastro-Produtos\API\bin\Debug\net5.0\System.Linq.Dynamic.Core.dll
+C:\Users\thiag\OneDrive\Área de Trabalho\API-Cadastro-Produtos\API\obj\Debug\net5.0\API.csproj.CopyComplete
