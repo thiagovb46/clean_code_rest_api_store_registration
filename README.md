@@ -1,7 +1,7 @@
 ## API REST CRUD para uma lista de produtos e usuários de uma loja. ( Em implementação) 
 Instruções para execução : 
 Deverá ser executado em um computador com o .NET 5 instalado e o banco de dados Sqlite.
-Para executar, bastar executar o comando dotnet run na pasta API. 
+Para execução do projeto, bastar executar o comando "dotnet run" na pasta API.
 ### Endereço Local para execução: https://localhost:5001
 ### Swagger com modelos de requisições e documentação : https://localhost:5001/swagger/index.html
 ### A API foi desenvolvida respeitando os princípios da Arquitetura Limpa, dividido em camadas e utilizando o princípios de inversão de dependências para realizar o tráfego de informações entre camadas.
