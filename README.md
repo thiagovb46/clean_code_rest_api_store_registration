@@ -67,3 +67,5 @@ O método lista os usuários apenas por nome e e-mail, não mostrando informaç�
 ----------------------------
 ###   ■ status
 ####    ● obrigatório.
+
+Não tive grandes dificuldades na implementação do projeto.
