@@ -42,4 +42,3 @@ C:\Users\thiag\OneDrive\Área de Trabalho\API-Cadastro-Produtos\Application\obj\
 C:\Users\thiag\OneDrive\Área de Trabalho\API-Cadastro-Produtos\Application\obj\Debug\net5.0\Application.dll
 C:\Users\thiag\OneDrive\Área de Trabalho\API-Cadastro-Produtos\Application\obj\Debug\net5.0\ref\Application.dll
 C:\Users\thiag\OneDrive\Área de Trabalho\API-Cadastro-Produtos\Application\obj\Debug\net5.0\Application.pdb
-C:\Users\thiag\OneDrive\Área de Trabalho\API-Cadastro-Produtos\Application\obj\Debug\net5.0\Application.csproj.CopyComplete
