@@ -32,7 +32,12 @@
 ## Listar Todos os usuários GET https://localhost:5001/Usuario
 O método lista os usuários apenas por nome e e-mail, não mostrando informações confidenciais como senha e e-mail.
 ## Deletar Usuario : DELETE https://localhost:5001/Usuario/{id}
-
+## Login Usuario : POST https://localhost:5001/Usuario/login 
+(Retorna JWT)
+{ 
+ "email": "user@example.com",
+  "senha": "string"
+}
 ## Validações implementadas nos modelos de cadastro:
 ### Usuário:
 ####  ■ Nome
