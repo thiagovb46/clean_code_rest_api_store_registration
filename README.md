@@ -1,14 +1,13 @@
-## API-REST-PRODUTOS-USUÁRIOS
-## - API REST CRUD(Create Read Update Delete) para uma lista de produtos e usuários de uma loja. ( Em implementação) 
-### Rodando no endereço(Local): https://localhost:5001
-### Documentação disponível em(Local) : https://localhost:5001/swagger/index.html
-### A API foi desenvolvida respeitando os princípios da Arquitetura Limpa, dividido em camadas e utilizando o princípios de inversão de dependências para realizar o tráfego de informações entre camadas.
+### API REST CRUD para uma lista de produtos e usuários de uma loja. ( Em implementação) 
+### -> Rodando no endereço(Local): https://localhost:5001
+### -> Documentação disponível em(Local) : https://localhost:5001/swagger/index.html
+### -> A API foi desenvolvida respeitando os princípios da Arquitetura Limpa, dividido em camadas e utilizando o princípios de inversão de dependências para realizar o tráfego de informações entre camadas.
 ### Feita em .NET 5 com EntityFrameWorkCore e Banco de dados SqLite simples sem autenticação, o banco encontra-se funcionando na pasta API. 
 #### As senhas são armazenadas de maneira criptografada no banco de dados com algoritimo md5.
 
-## - Rotas Implementadas até então (As demais  ainda estão em implementação) : 
-## - Produto
-## Cadastrar Produtos POST https://localhost:5001/Produto
+### - Rotas Implementadas até então (As demais  ainda estão em implementação) : 
+### - Produto
+### Cadastrar Produtos POST https://localhost:5001/Produto
 ### Formato da requisicao 
 
 {
@@ -34,32 +33,32 @@ ProdutoEstaAtivo é um booleano, deve ser preenchido true se o produto está ati
 O método lista os usuários apenas por nome e e-mail, não mostrando informações confidenciais como senha e e-mail.
 ## Deletar Usuario : DELETE https://localhost:5001/Usuario/{id}
 
-##Validações implementadas nos modelos de cadastro:
-###Usuário:
-####■ Nome
-####● obrigatório.
-####● mínimo de 3 letras. 
-####● máximo de 20 letras.
+## Validações implementadas nos modelos de cadastro:
+### Usuário:
+#### ■ Nome
+#### ● obrigatório.
+#### ● mínimo de 3 letras. 
+#### ● máximo de 20 letras.
 ----------------------------
-###■ Senha
-####● obrigatório.
-####● mínimo de 8 letras.
-####● máximo de 20 letras.
+### ■ Senha
+#### ● obrigatório.
+#### ● mínimo de 8 letras.
+#### ● máximo de 20 letras.
 ----------------------------
-###■ E-mail
-####● obrigatório.
-####● ser um email com formato válido.
-####● ser único no banco de dados.
+### ■ E-mail
+#### ● obrigatório.
+#### ● ser um email com formato válido.
+#### ● ser único no banco de dados.
 ----------------------------
-###■ Produtos:
-####■ nome
-####● obrigatório.
-####● mínimo de 3 letras.
-####● máximo de 80 letras.
+### ■ Produtos:
+#### ■ nome
+#### ● obrigatório.
+#### ● mínimo de 3 letras.
+#### ● máximo de 80 letras.
 ----------------------------
-###■ valor
-####● obrigatório.
-####● número não negativo.
+### ■ valor
+#### ● obrigatório.
+#### ● número não negativo.
 ----------------------------
-###■ status
-####● obrigatório.
+### ■ status
+#### ● obrigatório.
