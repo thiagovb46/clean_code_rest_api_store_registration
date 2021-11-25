@@ -19,7 +19,7 @@
 
 
 ##  Listar todos os produtos : GET https://localhost:5001/Produto 
-## Deletar Produtos : DELETE POST https://localhost:5001/Produto/{id} (Rota autenticada - Necessário fazer login com usuário e enviar o token fornecido por meio do header Authorization)
+## Deletar Produtos : DELETE https://localhost:5001/Produto/{id} (Rota autenticada - Necessário fazer login com usuário e enviar o token fornecido por meio do header Authorization)
 
 # - Usuario
 ## Cadastrar usuários POST https://localhost:5001/Usuario
