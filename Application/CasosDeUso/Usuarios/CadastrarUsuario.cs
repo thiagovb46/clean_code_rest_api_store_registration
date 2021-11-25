@@ -21,10 +21,12 @@ namespace Application.CasosDeUso.Usuarios
             _UsuarioRep = UsuarioRep;
 
         }
-        public void Cadastrar(UsuarioViewModelInput novousuarioViewModel)
+        public bool Cadastrar(UsuarioViewModelInput novousuarioViewModel)
         {
             Usuario novoUsuario = new Usuario(novousuarioViewModel.Nome,novousuarioViewModel.Email,_criptografia.Hash(novousuarioViewModel.Senha));
-            _UsuarioRep.Cadastrar(novoUsuario);
+            return _UsuarioRep.Cadastrar(novoUsuario);
+                
+                
         }
     }
 }

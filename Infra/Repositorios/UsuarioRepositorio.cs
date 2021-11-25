@@ -19,10 +19,15 @@ namespace Infra.Repositorios
             _contexto = contexto;
 
         }
-        public void Cadastrar(Usuario usuario)
+        public bool Cadastrar(Usuario usuario)
         {
-            _contexto.Usuarios.Add(usuario);
-            _contexto.SaveChanges();
+            if (_contexto.Usuarios.FirstOrDefault(u => u.Email == usuario.Email) == null)
+            {
+                _contexto.Usuarios.Add(usuario);
+                _contexto.SaveChanges();
+                return true;
+            }
+            return false;
         }
 
         public void Deletar(int id)

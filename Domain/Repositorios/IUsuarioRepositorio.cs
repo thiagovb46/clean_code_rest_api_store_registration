@@ -9,7 +9,7 @@ namespace Domain.Repositorios
 {
     public interface IUsuarioRepositorio
     {
-        public void Cadastrar(Usuario usuario);
+        public bool Cadastrar(Usuario usuario);
         public void Deletar(int id);
         public List<Usuario> ListarTodos();
         public bool Login(Usuario usuario);

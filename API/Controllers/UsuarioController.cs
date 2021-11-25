@@ -32,8 +32,10 @@ namespace API.Controllers
         {
             try
             {
-                usuarioCad.Cadastrar(novousuario);
+                
+                if(usuarioCad.Cadastrar(novousuario))
                 return Created("Sucesso", novousuario);
+                return BadRequest("O Email cadastrado já existe na base de dados.");
             }
             catch (Exception e)
             {

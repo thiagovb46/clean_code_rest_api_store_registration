@@ -9,6 +9,6 @@ namespace Application.CasosDeUso.Usuarios
 {
     public interface ICadastrarUsuario
     {
-        public void Cadastrar(UsuarioViewModelInput novousuario);
+        public bool Cadastrar(UsuarioViewModelInput novousuario);
     }
 }
