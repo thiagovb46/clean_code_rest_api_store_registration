@@ -49,3 +49,21 @@ C:\Users\thiag\OneDrive\Área de Trabalho\API-Cadastro-Produtos\Infra\obj\Debug\
 C:\Users\thiag\OneDrive\Área de Trabalho\API-Cadastro-Produtos\Infra\obj\Debug\net5.0\Infra.pdb
 C:\Users\thiag\OneDrive\Área de Trabalho\API-Cadastro-Produtos\Infra\obj\Debug\net5.0\Infra.genruntimeconfig.cache
 C:\Users\thiag\OneDrive\Área de Trabalho\API-Cadastro-Produtos\Infra\obj\Debug\net5.0\Infra.csproj.CopyComplete
+C:\Users\thiag\workspace\dotnetProjects\clean_code_rest_api_store_registration\Infra\bin\Debug\net5.0\Infra.deps.json
+C:\Users\thiag\workspace\dotnetProjects\clean_code_rest_api_store_registration\Infra\bin\Debug\net5.0\Infra.runtimeconfig.json
+C:\Users\thiag\workspace\dotnetProjects\clean_code_rest_api_store_registration\Infra\bin\Debug\net5.0\Infra.runtimeconfig.dev.json
+C:\Users\thiag\workspace\dotnetProjects\clean_code_rest_api_store_registration\Infra\bin\Debug\net5.0\Infra.dll
+C:\Users\thiag\workspace\dotnetProjects\clean_code_rest_api_store_registration\Infra\bin\Debug\net5.0\ref\Infra.dll
+C:\Users\thiag\workspace\dotnetProjects\clean_code_rest_api_store_registration\Infra\bin\Debug\net5.0\Infra.pdb
+C:\Users\thiag\workspace\dotnetProjects\clean_code_rest_api_store_registration\Infra\bin\Debug\net5.0\Domain.dll
+C:\Users\thiag\workspace\dotnetProjects\clean_code_rest_api_store_registration\Infra\bin\Debug\net5.0\Domain.pdb
+C:\Users\thiag\workspace\dotnetProjects\clean_code_rest_api_store_registration\Infra\obj\Debug\net5.0\Infra.csprojAssemblyReference.cache
+C:\Users\thiag\workspace\dotnetProjects\clean_code_rest_api_store_registration\Infra\obj\Debug\net5.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thiag\workspace\dotnetProjects\clean_code_rest_api_store_registration\Infra\obj\Debug\net5.0\Infra.AssemblyInfoInputs.cache
+C:\Users\thiag\workspace\dotnetProjects\clean_code_rest_api_store_registration\Infra\obj\Debug\net5.0\Infra.AssemblyInfo.cs
+C:\Users\thiag\workspace\dotnetProjects\clean_code_rest_api_store_registration\Infra\obj\Debug\net5.0\Infra.csproj.CoreCompileInputs.cache
+C:\Users\thiag\workspace\dotnetProjects\clean_code_rest_api_store_registration\Infra\obj\Debug\net5.0\Infra.csproj.CopyComplete
+C:\Users\thiag\workspace\dotnetProjects\clean_code_rest_api_store_registration\Infra\obj\Debug\net5.0\Infra.dll
+C:\Users\thiag\workspace\dotnetProjects\clean_code_rest_api_store_registration\Infra\obj\Debug\net5.0\ref\Infra.dll
+C:\Users\thiag\workspace\dotnetProjects\clean_code_rest_api_store_registration\Infra\obj\Debug\net5.0\Infra.pdb
+C:\Users\thiag\workspace\dotnetProjects\clean_code_rest_api_store_registration\Infra\obj\Debug\net5.0\Infra.genruntimeconfig.cache

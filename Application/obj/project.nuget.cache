@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mV6rmAG0cXJrqDJ3Jp6+FdN6JKowWPkK5RXuPslhk7IHar6uQTrQnDG04a0v+oIMGl0Ul9fhbA5j3Dn4BWU4WQ==",
+  "dgSpecHash": "hq7nCOheaCRrVUWcu+XUow5N9R78H0S1JxQlvNgoeIbMtHY14IZFHB5Xtyvh13OuacI2qmaWiNfjGqco+EBG7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\API-Cadastro-Produtos\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\thiag\\workspace\\dotnetProjects\\clean_code_rest_api_store_registration\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thiag\\.nuget\\packages\\beiyuan.websystem.aspnetcore.authentication.jwtbearer\\3.1.0\\beiyuan.websystem.aspnetcore.authentication.jwtbearer.3.1.0.nupkg.sha512",
     "C:\\Users\\thiag\\.nuget\\packages\\beiyuan.websystem.core\\3.1.0\\beiyuan.websystem.core.3.1.0.nupkg.sha512",

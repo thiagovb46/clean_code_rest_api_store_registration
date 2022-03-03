@@ -1,27 +1,23 @@
-using Application.CasosDeUso;
-using Application.CasosDeUso.Produtos;
-using Application.CasosDeUso.Usuarios;
-using Application.Servicos;
-using Domain.Repositorios;
-using Infra.Contexto;
+using Application.Services;
+using Application.Services.Cryptography;
+using Application.Services.TokenServices;
+using Application.useCases.Products;
+using Application.UseCases.Products;
+using Application.UseCases.Users;
+using Domain.IRepositories;
+using Infra.Context;
+using Infra.Repositories;
 using Infra.Repositorios;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace API
 {
@@ -37,26 +33,32 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            //Dependencies Inversions
             services.AddControllers();
-            services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
-            services.AddScoped<ICadastrarProduto, CadastrarProduto>();
-            services.AddScoped<IDeletarProduto, DeletarProduto >();
-            services.AddScoped<IListarProdutos, ListarProdutos>();
-            services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
-            services.AddScoped<ICadastrarUsuario, CadastrarUsuario>();
-            services.AddScoped<IDeletarUsuario, DeletarUsuario>();
-            services.AddScoped<IListarUsuarios, ListarUsuarios>();
-            services.AddScoped<ILoginUsuario, LoginUsuario>();
-            services.AddScoped<ICriptografia, Criptografia>();
+            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<ICreateNewProduct, CreateNewProduct>();
+            services.AddScoped<IDeleteProduct, DeleteProduct >();
+            services.AddScoped<IListAllProducts, ListAllProducts>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ICreateNewUser, CreateNewUser>();
+            services.AddScoped<IDeleteUser, DeleteUser>();
+            services.AddScoped<IListAllUsers, ListAllUsers>();
+            services.AddScoped<IUserLogin, UserLogin>();
+            services.AddScoped<ICriptography, Criptography>();
             services.AddScoped<ISettings, Settings>();
             services.AddScoped<ITokenService, TokenService>();
+
+            //Swagger
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
             });
-            services.AddDbContext<LojaContext>(context=>context.UseSqlite(Configuration.GetConnectionString("Default")));
+
+            //DbContext Configuration
+            services.AddDbContext<StoreContext>(context=>context.UseSqlite(Configuration.GetConnectionString("Default")));
             ISettings _settings = new Settings();
+
+            //AuthConfiguration
             var key = Encoding.ASCII.GetBytes(_settings.Secret);
             services.AddAuthentication(x =>
             {
@@ -68,7 +70,7 @@ namespace API
                 jwt.SaveToken = true;
                 jwt.TokenValidationParameters = new TokenValidationParameters
                 {
-                    ValidateIssuerSigningKey = true,//Validação de chave
+                    ValidateIssuerSigningKey = true,//Validaï¿½ï¿½o de chave
                     IssuerSigningKey = new SymmetricSecurityKey(key),
                     ValidateIssuer=false,
                     ValidateAudience = false
@@ -86,13 +88,12 @@ namespace API
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1"));
             }
+
             app.UseHttpsRedirection();
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();
             
-
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
