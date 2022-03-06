@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\thiag\\workspace\\dotnetProjects\\clean_code_rest_api_store_registration\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\thiag\\workspace\\dotnetProjects\\clean_code_rest_api_store_registration\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "c:\\Users\\thiag\\workspace\\dotnetProjects\\clean_code_rest_api_store_registration\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\thiag\\workspace\\dotnetProjects\\clean_code_rest_api_store_registration\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\thiag\\workspace\\dotnetProjects\\clean_code_rest_api_store_registration\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\thiag\\workspace\\dotnetProjects\\clean_code_rest_api_store_registration\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config"

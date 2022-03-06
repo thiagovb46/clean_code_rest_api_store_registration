@@ -16,11 +16,11 @@ namespace Infra.Repositorios
             _context = context;
 
         }
-        public bool CreatesNewUser(User usuario)
+        public bool CreatesNewUser(User user)
         {
-            if (_context.Users.FirstOrDefault(u => u.Email == usuario.Email) == null)
+            if (_context.Users.FirstOrDefault(u => u.Email == user.Email) == null)
             {
-                _context.Users.Add(usuario);
+                _context.Users.Add(user);
                 _context.SaveChanges();
                 return true;
             }

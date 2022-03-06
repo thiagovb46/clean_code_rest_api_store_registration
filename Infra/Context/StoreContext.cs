@@ -5,8 +5,8 @@ namespace Infra.Context
 {
     public class StoreContext : DbContext
     {
-        public StoreContext()
-        {}
+        // public StoreContext()
+        // {}
         public StoreContext(DbContextOptions  options) : base(options) 
         {}
         

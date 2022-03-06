@@ -55,7 +55,12 @@ namespace API
             });
 
             //DbContext Configuration
-            services.AddDbContext<StoreContext>(context=>context.UseSqlite(Configuration.GetConnectionString("Default")));
+            
+            services.AddDbContext<StoreContext>(
+                context=>context.UseSqlite(
+                    Configuration.GetConnectionString("Default"),
+                     x=> x.MigrationsAssembly("Infra")));
+            
             ISettings _settings = new Settings();
 
             //AuthConfiguration

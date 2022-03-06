@@ -23,7 +23,7 @@ namespace API.Controllers
         }
 
         [HttpPost]
-        public IActionResult Cadastrar([FromBody] ProductViewModelInput productViewModelInput)
+        public IActionResult CreateProduct([FromBody] ProductViewModelInput productViewModelInput)
         {
             try
             {
@@ -39,7 +39,7 @@ namespace API.Controllers
 
         [Authorize]
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id) 
+        public IActionResult DeleteProduct(int id) 
         {
             try
             {

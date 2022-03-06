@@ -67,7 +67,7 @@ namespace API.Controllers
             }
         }
         [HttpGet]
-        public ActionResult Listar()
+        public ActionResult ListAll()
         {
             try
             {
