@@ -7,7 +7,6 @@ using Application.UseCases.Users;
 using Domain.IRepositories;
 using Infra.Context;
 using Infra.Repositories;
-using Infra.Repositorios;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

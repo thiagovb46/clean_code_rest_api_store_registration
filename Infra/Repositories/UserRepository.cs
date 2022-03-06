@@ -4,7 +4,7 @@ using Infra.Context;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Infra.Repositorios
+namespace Infra.Repositories
 {
     public class UserRepository : IUserRepository
 
